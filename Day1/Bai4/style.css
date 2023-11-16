@@ -1,0 +1,69 @@
+.phone-book {
+  position: relative;
+}
+.phone-book-container {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  width: 600px;
+  min-height: 500px;
+  padding: 10px;
+  border: 1px solid lightgrey;
+}
+.phone-book-header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+
+.phone-book-function {
+  margin: 20px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.form-control {
+  height: 30px;
+  width: 200px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid lightgrey;
+}
+
+.form-control-search {
+  height: 30px;
+  width: 300px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid lightgrey;
+}
+
+.phone-book-submit {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: none;
+  background: #3f51b5;
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  margin: 0 0 0 10px;
+}
+
+.phone-book-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: lightgray;
+  width: 500px;
+  height: 50px;
+  padding: 0 20px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 20px;
+}
